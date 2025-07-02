@@ -87,14 +87,17 @@ h6 {
   font-family: var(--heading-font);
 }
 
-.social-links a.orcid svg {
-  vertical-align: middle;
-  margin: 0 5px;
-  transition: 0.3s;
+.social-links {
+  display: flex;
+  justify-content: center; /* centra gli elementi orizzontalmente */
+  gap: 15px; /* spazio tra i loghi */
+  align-items: center; /* allinea verticalmente al centro */
 }
-
-.social-links a.orcid:hover svg {
-  opacity: 0.7;
+.social-links a img,
+.social-links a i {
+  font-size: 24px; /* regola la dimensione delle icone */
+  width: 24px; /* regola la larghezza dell'immagine ORCID */
+  height: 24px; /* regola l'altezza dell'immagine ORCID */
 }
 
 /* PHP Email Form Messages
