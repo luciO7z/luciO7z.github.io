@@ -87,6 +87,16 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.social-links a.orcid svg {
+  vertical-align: middle;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.social-links a.orcid:hover svg {
+  opacity: 0.7;
+}
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
