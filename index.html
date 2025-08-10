@@ -284,9 +284,11 @@
   
   <!-- Bottone download CV -->
   <a href="path/del/tuo-cv.pdf" download class="btn-cv" aria-label="Download CV">
-    <!-- Icona download minimal (SVG) -->
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="vertical-align: middle; margin-right: 6px;">
-      <path d="M.5 9.9a.5.5 0 0 1 .5-.5h4V1.5a.5.5 0 0 1 1 0v7.9h4a.5.5 0 0 1 .4.8l-5 6a.5.5 0 0 1-.8 0l-5-6a.5.5 0 0 1 .4-.8z"/>
+    <!-- Icona download più dettagliata (SVG) -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;" viewBox="0 0 24 24">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+      <polyline points="7 10 12 15 17 10"/>
+      <line x1="12" y1="15" x2="12" y2="3"/>
     </svg>
     CV
   </a>
@@ -295,6 +297,32 @@
     Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
   </p>
 </div><!-- End Section Title -->
+
+<style>
+.btn-cv {
+  display: inline-flex;
+  align-items: center;
+  background-color: #007BFF; /* blu pieno */
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0,123,255,0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  user-select: none;
+  margin-bottom: 12px;
+}
+.btn-cv:hover {
+  background-color: #0056b3;
+  box-shadow: 0 5px 12px rgba(0,86,179,0.6);
+}
+.btn-cv svg {
+  stroke: white;
+}
+</style>
+
 
 <style>
 .btn-cv {
