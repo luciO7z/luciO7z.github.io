@@ -51,12 +51,9 @@
       <h1 class="sitename">Luciano Coppolino</h1>
     </a>
 
-<div class="social-links text-center" style="display: flex; justify-content: center; align-items: center; gap: 0.5rem;">
-  <img src="assets/img/ORCID-iD_icon_vector.svg" alt="" style="height: 24px;">
-  <a href="https://orcid.org/0000-0002-2771-9344" target="_blank" style="white-space: nowrap; text-decoration: none; color: inherit;">
-    0000-0002-2771-9344
-  </a>
-</div>
+    <div class="social-links text-center">
+      <a href="https://orcid.org/0000-0002-2771-9344"><img src="assets/img/ORCID-iD_icon_vector.svg" alt=""/></a><span>0000-0002-2771-9344<span>
+    </div>
 
 
     <nav id="navmenu" class="navmenu">
@@ -284,10 +281,40 @@
       <!-- Section Title -->
 <div class="container section-title" data-aos="fade-up">
   <h2>Curriculum Vitae</h2>
+  
+  <!-- Bottone download CV -->
+  <a href="path/del/tuo-cv.pdf" download class="btn-cv" aria-label="Download CV">
+    <!-- Icona download minimal (SVG) -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="vertical-align: middle; margin-right: 6px;">
+      <path d="M.5 9.9a.5.5 0 0 1 .5-.5h4V1.5a.5.5 0 0 1 1 0v7.9h4a.5.5 0 0 1 .4.8l-5 6a.5.5 0 0 1-.8 0l-5-6a.5.5 0 0 1 .4-.8z"/>
+    </svg>
+    CV
+  </a>
+  
   <p>
     Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
   </p>
 </div><!-- End Section Title -->
+
+<style>
+.btn-cv {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #333;
+  padding: 4px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 10px;
+}
+.btn-cv:hover {
+  background-color: #333;
+  color: #fff;
+}
+</style>
+
 
 
       <div class="container">
