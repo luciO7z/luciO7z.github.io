@@ -3,8 +3,8 @@
 header('Content-Type: application/json');
 
 // Configurazione
-$recipient_email = "tuoindirizzo@example.com"; // Sostituisci con la tua email
-$recipient_name  = "Tuo Nome"; // Opzionale
+$recipient_email = "luciano.coppolino@outlook.com"; // Sostituisci con la tua email
+$recipient_name  = "Luciano Coppolino"; // Opzionale
 
 // Funzione per pulire i dati
 function clean_input($data) {
